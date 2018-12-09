@@ -9,7 +9,7 @@ class CurrencyValidation
 
     public static function ValidCurrency($currencyKey)
     {
-        return in_array(strtoupper($currencyKey), CurrencyList::Keys);
+        return in_array(strtoupper($currencyKey), CurrencyList::$Keys);
 
     }
 
@@ -22,7 +22,7 @@ class CurrencyValidation
     public static function ValidatedCurrencies($currencyKeys = [])
     {
         $UpperCaseCurrencyKeys = array_map('strtoupper', $currencyKeys);
-        return array_intersect($UpperCaseCurrencyKeys, CurrencyList::Keys);
+        return array_intersect($UpperCaseCurrencyKeys, CurrencyList::$Keys);
 
     }
 
