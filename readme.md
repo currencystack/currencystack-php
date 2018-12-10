@@ -5,7 +5,7 @@ php client library for clear ip
 ## Installation
 
 ```bash
-composer require CurrencyStack
+composer require currencystack/currencystack-php
 ```
 
 ## usage
