@@ -1,6 +1,7 @@
 {
     "name": "CurrencyStack-php",
-    "description": "",
+    "description": "Real-time and historical exchange rates for 168 world currencies provided in JSON format and works for any programming environment. ",
+    "version":"1.0.0",
     "type": "library",
     "authors": [
         {
@@ -9,9 +10,9 @@
             "role": "Developer"
         }
     ],
-    "keywords": [],
+    "keywords": ["currency", "exchange", "xe", "yahoo", "finance", "api"],
     "homepage": "https://github.com/pushbots/currencystack-php",
-    "license": "",
+    "license": "MIT",
     "require": {
         "php": ">=5.5",
         "guzzlehttp/guzzle": "^6.3"
