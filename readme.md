@@ -1,6 +1,6 @@
 # CurrencyStack.io PHP client [![Build Status](https://travis-ci.com/pushbots/currencystack-php.svg?token=xL8qMcpPMGBsgtk7bqqS&branch=master)](https://travis-ci.com/pushbots/currencystack-php)
 
-php client library for clear ip
+php client library for currencystack.io – A reliable API for foreign exchange rates and currency conversion.
 
 ## Installation
 
