@@ -1,5 +1,5 @@
 {
-    "name": "CurrencyStack-php",
+    "name": "currencystack/currencystack-php",
     "description": "Real-time and historical exchange rates for 168 world currencies provided in JSON format and works for any programming environment. ",
     "version":"1.0.0",
     "type": "library",
